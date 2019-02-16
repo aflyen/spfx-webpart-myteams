@@ -1,0 +1,94 @@
+@import '~office-ui-fabric-react/dist/sass/_References.scss';
+
+.myTeams {
+  .row {
+    @include ms-Grid-row;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-sm12;
+  }
+
+  .title {
+    @include ms-font-xl;
+  }
+
+  .team {
+    @include ms-Grid-col;
+    @include ms-xxl6;
+    @include ms-sm12;
+
+    margin: 0 0 16px 0;
+    cursor: pointer;
+
+    .title {
+      @include ms-font-l;
+      height: 22px;
+      overflow: hidden;
+      padding-top: 2px;
+    }
+
+    .description {
+      @include ms-font-s;
+      height: 16px;
+      overflow: hidden;
+      padding-top: 4px;
+    }
+
+    .icon {
+      float: left;
+      margin: 0 16px 0 0;
+      width: 48px; 
+      height: 48px;
+      text-align: center;
+      color: white;
+
+      .acronym {
+        @include ms-font-l;
+        padding: 12px 0 0 0;
+        font-weight: 100;
+      }
+    }
+
+    &:nth-of-type(1n+0) .icon {
+      background-color: $ms-color-blue;
+    }
+
+    &:nth-of-type(2n+0) .icon {
+      background-color: $ms-color-red;
+    }
+
+    &:nth-of-type(3n+0) .icon {
+      background-color: $ms-color-green;
+    }
+
+    &:nth-of-type(4n+0) .icon {
+      background-color: $ms-color-magenta;
+    }
+
+    &:nth-of-type(5n+0) .icon {
+      background-color: $ms-color-teal;
+    }
+
+    &:nth-of-type(6n+0) .icon {
+      background-color: $ms-color-greenDark;
+    }
+
+    &:nth-of-type(7n+0) .icon {
+      background-color: $ms-color-black;
+    }
+
+    &:nth-of-type(8n+0) .icon {
+      background-color: $ms-color-magentaLight;
+    }
+
+    &:nth-of-type(9n+0) .icon {
+      background-color: $ms-color-blueMid;
+    }
+
+    &:nth-of-type(10n+0) .icon {
+      background-color: $ms-color-redDark;
+    }
+  }
+}
