@@ -4,6 +4,8 @@ This solutions is a basic WebPart build with [SharePoint Framework](https://docs
 
 Each team is displayed with a title, description (if available), archive status and an acronym icon. The sort order is by default from the Microsoft Graph, and at the current time is not possible to change.
 
+![Example showing the "My Teams" webpart](./assets/example.png)
+
 ## Possible improvements
 
 This is a basic example and not a fully developed solution, so there is a few possible improvements that's on the top of my mind:
